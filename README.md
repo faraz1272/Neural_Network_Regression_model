@@ -4,14 +4,6 @@ This project focuses on predicting delivery times for orders placed through **Po
 
 ---
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Pandas](https://img.shields.io/badge/Pandas-1.3.0-red)
-![NumPy](https://img.shields.io/badge/NumPy-1.21.0-green)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0.24.2-orange)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.2-yellow)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.11.1-lightblue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.6.0-ff69b4)
-
 ## **Table of Contents**
 1. [Project Overview](#project-overview)
 2. [Context](#context)
@@ -19,14 +11,9 @@ This project focuses on predicting delivery times for orders placed through **Po
 4. [Data Dictionary](#data-dictionary)
 5. [Features](#features)
 6. [Methodology](#methodology)
-7. [Results](#results)
+7. [Machine Learning Model Comparison](#Machine-Learning-Model-Comparison)
 8. [Installation](#installation)
-9. [Usage](#usage)
-10. [Tools Used](#tools-used)
-11. [Contributing](#contributing)
-12. [License](#license)
-13. [FAQs](#faqs)
-14. [Acknowledgments](#acknowledgments)
+9. [FAQs](#faqs)
 
 ---
 
@@ -109,20 +96,40 @@ Key features used in the model:
 4. **Comparison with Other Models**:
    - Compared the NN model's performance with XGBoost and Linear Regression.
 
+## **Machine Learning Model Comparison**
+
+## 📦 Libraries Used
+
+| Library | Description |
+|---------|------------|
+| ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) | Numerical computing library |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | Data manipulation & analysis |
+| ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white) | Data visualization library |
+| ![Seaborn](https://img.shields.io/badge/Seaborn-008080?style=for-the-badge&logo=python&logoColor=white) | Statistical data visualization |
+| ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | Machine learning library |
+| ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) | Deep learning framework |
+| ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white) | Neural network API |
+
+## 🤖 Models Used
+
+| Model | Description |
+|-------|------------|
+| ![Neural Network](https://img.shields.io/badge/Neural%20Network-0A192F?style=for-the-badge&logo=deeplearning&logoColor=white) | Deep learning model for predictions |
+| ![Linear Regression](https://img.shields.io/badge/Linear%20Regression-0033A0?style=for-the-badge&logo=regression&logoColor=white) | Simple yet effective linear model |
+| ![XGBoost](https://img.shields.io/badge/XGBoost-EC4E20?style=for-the-badge&logo=xgboost&logoColor=white) | Gradient boosting model |
+
+## 📊 Model Performance
+
+| Model               | MAE (↓ better) | R² Score (↑ better) |
+|---------------------|--------------|------------------|
+| **Linear Regression** | 1.0256       | **0.9951**       |
+| **Neural Network**   | **0.2326**   | 0.9837           |
+| **XGBoost**         | 0.8675       | 0.9814           |
+
 ---
 
-## **Results**
-### **Neural Network Model**
-- **MAE**: 0.2326
-- **R² Score**: 0.9837
-
-### **XGBoost Model**
-- **MAE**: 0.8675
-- **R² Score**: 0.9814
-
-### **Linear Regression Model**
-- **MAE**: 1.0256
-- **R² Score**: 0.9951
-
 The **Neural Network model** demonstrated the best performance, with the lowest MAE and a high R² score, indicating strong predictive accuracy and generalization.
+
+🚀 **Feel free to contribute or suggest improvements!**
+
 ---
