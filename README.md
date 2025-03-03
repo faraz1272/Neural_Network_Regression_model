@@ -117,4 +117,12 @@ Key features used in the model:
 - **R² Score**: 0.9951
 
 The **Neural Network model** demonstrated the best performance, with the lowest MAE and a high R² score, indicating strong predictive accuracy and generalization.
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Pandas](https://img.shields.io/badge/Pandas-1.3.0-red)
+![NumPy](https://img.shields.io/badge/NumPy-1.21.0-green)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0.24.2-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.2-yellow)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.11.1-lightblue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.6.0-ff69b4)
 ---
